@@ -1,0 +1,64 @@
+.background{
+    background-color: black;
+    width: 230px;
+    height: 320px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns:1fr;
+    border-radius: 3px;
+}
+.text{
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+.container{
+    margin: 10px 10px 10px 10px;
+}
+.green{
+    background-color: rgb(161, 216, 33);
+}
+.delete{
+ 
+    font-size: 17px;
+    padding: 4px;
+
+  
+  
+}
+button{
+    font-size: 18px;
+    font-family: Roboto;
+    margin-right: 7px;
+    margin-top: 7px;
+  padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+   color: white;
+   background-color: rgb(71, 68, 68);
+   border-style: none;
+}
+ button:hover{
+    background-color: rgb(126, 122, 122) ;
+}
+    button:active{
+        background-color: white;
+    }
+
+.zero{
+    width: 90px;
+   
+}
+.green:hover{
+    background-color: rgb(226, 221, 221);
+   
+}
+.green:active{
+    background-color: white;
+}
+
+
